@@ -8,7 +8,7 @@ let accountState;
 accountEmail = "hc@hc.com"
 /*
 Prefer not to use var
-
+because of issue in block scope and functional scope
 */
 
 console.log(accountId);
